@@ -9,5 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector(".btn").disabled = false;
     else
         document.querySelector(".btn").disabled = true;
-    }
+    };
+
+    document.querySelector("#chance").onclick = function () {
+        location.href = "https://github.com/CapronYoan/Mobgle";
+    };
 })
