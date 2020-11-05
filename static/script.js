@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     document.querySelector("#chance").onclick = function () {
-        location.href = "https://github.com/CapronYoan/Mobgle";
+    document.querySelector(".img").innerHTML = "<img src='static/smile.svg'/>";
     };
 })
