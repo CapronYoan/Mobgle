@@ -9,5 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector(".btn").disabled = false;
     else
         document.querySelector(".btn").disabled = true;
-    }
+    };
+
+    document.querySelector("#chance").onclick = function () {
+    document.querySelector(".img").innerHTML = "<img src='static/smile.svg'/>";
+    };
 })
