@@ -1,0 +1,43 @@
+body {
+  margin: 15% 10% 0 10%;
+}
+
+.title {
+  text-align: center;
+  font-size: 4vw;
+}
+
+.form-control{
+  margin: 5% 20% 0 20%
+}
+
+.btn{
+  background-color:#F1F7F7;
+  color: black;
+}
+.btn:disabled {
+  background-color:#f1f6f7;
+  color: black;
+}
+
+
+.buttons{
+  margin: 5% 20% 0 20%;
+  display: inline-block;
+  width: 100%
+}
+
+.buttons > button {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+}
+
+.result_paragraphe{
+  font-size: 1vw;
+}
+.result_data{
+  color: blue;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+}
