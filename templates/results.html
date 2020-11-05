@@ -1,0 +1,27 @@
+{% extends '/shared/_base.html' %}
+
+
+
+
+
+
+{% block body %}
+<div class="result_container">
+    <p class="result_paragraphe">
+        www.mobgle.com
+    </p>
+    <div class="result_data">
+        {{ response }}
+    </div>
+    {% set random_domaines = ["information", "independence", "sympathy", "perspective",  "combination", "classroom", "attitude"] %}
+    {% for domain in random_domaines %}
+    <p class="result_paragraphe">
+        www.{{ domain }}.com
+    </p>
+    <div class="result_data">
+        {{ paragraphe }}
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

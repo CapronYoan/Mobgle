@@ -1,0 +1,26 @@
+{% extends '/shared/_base.html' %}
+
+{% block script %}
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    <h1 class="title">
+        <span style="color:blue">M</span>
+        <span style="color:red">o</span>
+        <span style="color:yellow">b</span>
+        <span style="color:blue">g</span>
+        <span style="color:green">l</span>
+        <span style="color:red">e</span>
+    </h1>
+    
+    <form action="{{url_for('index')}}" method="POST">
+        <div class="input-group mb-3">
+            <input type="number" min="1" max="99999999999999999999999999999999999999999999999999" class="form-control" placeholder="Entrer la valeur fibonacci max 50 caractères" aria-label="Fibonacci" aria-describedby="basic-addon1" name="fibonacci">
+        </div>
+        <div class="buttons">
+            <button type="submit" id="rechercher" class="btn btn-primary">Calculer Fibonacci</button>
+            <button type="button" id="chance" class="btn btn-primary" href="https://github.com/CapronYoan/Mobgle">J'ai de la chance</button>
+        </div>
+    </form>
+{% endblock %}

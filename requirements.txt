@@ -1,0 +1,6 @@
+Flask
+lorem
+gunicorn
+itsdangerous
+Jinja2
+Werkzeug
