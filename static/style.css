@@ -8,12 +8,15 @@ body {
 }
 
 .form-control{
-  margin: 5% 20% 0 20%
+  margin: 5% 20% 0 20%;
+  font-size: 1.3vw;
 }
 
 .btn{
   background-color:#F1F7F7;
   color: black;
+  height:3vw;
+  font-size: 1.3vw;
 }
 .btn:disabled {
   background-color:#f1f6f7;
@@ -23,15 +26,16 @@ body {
 
 .buttons{
   margin: 5% 20% 0 20%;
-  display: inline-block;
-  width: 100%
+  position: center;
+  box-sizing: border-box;
 }
 
 .buttons > button {
-  margin-left: 10%;
-  margin-right: 10%;
   border: none;
+  margin-left: 8vw;
 }
+
+#
 
 .result_paragraphe{
   font-size: 1vw;
@@ -43,5 +47,5 @@ body {
 }
 
 .img{
-  margin: 0 45% 0 45%;
+  margin: 0 45% 0 45%
 }
