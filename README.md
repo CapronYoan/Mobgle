@@ -1,6 +1,6 @@
 # Mobgle
 
-Fibonacci suite like Google
+Fibonacci suite unlike Google
 
 free demo here: 
 https://mobgle.herokuapp.com/
